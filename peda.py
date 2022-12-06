@@ -94,6 +94,6 @@ else:
 print(kk)
 kk=input("Enter your cods namber: ")
 if kk=="1":
-      os.system('python peda.py.py')
+      os.system('python peda.py')
 if kk=="1":
       os.system('exit')
