@@ -23,7 +23,7 @@ A="""
 [6] Facbook2
 [7] Github
 [8] Github2
-[9]
+[9] FF ID
 """
 kk="""
 [1] Mano
@@ -61,6 +61,13 @@ web  : http://nahidgameshopbd.rf.gd
 
 Admin: http://nahidgameshopbd.rf.gd/wp-admin/
 """
+ffid="""
+
+Gmail: arbinjabed@gmail.com
+
+pass : Nahid@20087
+"""
+
 print(N+A)
 
 mad=input("Enter your id nambee: ")
@@ -88,6 +95,9 @@ if mad=="7":
 if mad=="8":
       os.system('clear')
       print(N+Github2)
+if mad=="9":
+      os.system('clear')
+      print(N+ffid)
 else:
       print("  ")
 
